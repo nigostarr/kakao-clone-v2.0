@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/6e866b1999.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -38,25 +39,30 @@
     </header>
     <main class="friends">
       <header class="friend__list">
-        <div class="friends__friend friend friend--lg">
-          <div class="friend__column">
-            <img src="images/nigostarr.jpg" class="g-avatar friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">
-                Nigostarr
-              </span>
-              <span class="friend__status">
-                Leverage
-              </span>
-            </div>
+        <div class="friends__friend friend">
           </div>
-        </div>
-      </header>
+        </header>
+        <main class="friends">
+          <header class="friends__header">
+            <div class="friends__friend friend friend--lg">
+              <div class="friend__column">
+                <img src="images/nigostarr.jpg" class="g-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Nigostarr
+                  </span>
+                  <span class="friend__status">
+                    Leverage
+                  </span>
+                </div>
+              </div>
+            </div>
+          </header>
       <div class="friends__plus">
         <h5 class="friends__title">Plus Friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/plusfriend.jpg" class="g-avatar friend__avatar" />
+            <img src="images/plusfriend.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -69,7 +75,7 @@
         <h5 class="friends__title">Friends 3</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/honey.jpg" class="g-avatar friend__avatar" />
+            <img src="images/honey.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Honey🍯
@@ -83,8 +89,8 @@
             <div class="friend__now-listening">
               <span>
                 US National Anthem (USA)
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
@@ -92,22 +98,22 @@
     </main>
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav list-item">
+        <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="fas fa-user"></i>
           </a>
         </li>
-        <li class="nav list-item">
+        <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
+            <i class="fas fa-comment"></i>
           </a>
         </li>
-        <li class="nav list-item">
+        <li class="nav__list-item">
           <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
           </a>
         </li>
-        <li class="nav list-item">
+        <li class="nav__list-item">
           <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>
